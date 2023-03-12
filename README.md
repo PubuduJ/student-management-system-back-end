@@ -9,6 +9,7 @@ More information on the exposed web services with example test cases can be foun
 API documentation listed below.
 - [**Students API documentation**](https://documenter.getpostman.com/view/25306703/2s93JtQPYm)
 
+See the front end of the project from [here.](https://github.com/PubuduJ/student-management-system-front-end)
 
 #### Highlighted features of the application,
 - Students are registered to the system by their NIC number.
