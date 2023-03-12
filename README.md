@@ -7,7 +7,7 @@ Web services are exposed as APIs under the **students** resource in this project
 
 More information on the exposed web services with example test cases can be found in the 
 API documentation listed below.
-- [**Students API documentation**](Link)
+- [**Students API documentation**](https://documenter.getpostman.com/view/25306703/2s93JtQPYm)
 
 
 #### Highlighted features of the application,
