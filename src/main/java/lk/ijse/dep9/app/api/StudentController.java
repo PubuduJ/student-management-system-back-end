@@ -25,7 +25,13 @@ public class StudentController {
 
     @ResponseStatus(HttpStatus.CREATED)
     @PatchMapping(value = "/{nic}", consumes = "application/json", produces = "application/json")
-    public StudentDTO updateStudent(String nic, StudentDTO studentDTO) {
+    public StudentDTO updateStudent(@PathVariable String nic, @Valid @RequestBody StudentDTO studentDTO) {
         return studentDTO;
+    }
+
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @DeleteMapping("/{nic}")
+    public void deleteStudent(@PathVariable String nic) {
+
     }
 }
