@@ -17,5 +17,8 @@ public class StudentController {
         return studentDTO;
     }
 
-
+    @GetMapping(value = "/{nic}", produces = "application/json")
+    public StudentDTO getStudentDetails(@PathVariable String nic) {
+        return null;
+    }
 }
