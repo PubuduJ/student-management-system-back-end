@@ -64,7 +64,7 @@ Make sure to create a **student_app_db** database in the MySQL community server.
 If you neglect to create it, the project will automatically generate it when it is first executed.
 
 #### Clone this repository
-1. Clone the project using `` terminal command.
+1. Clone the project using `https://github.com/PubuduJ/student-management-system-back-end.git` terminal command.
 2. Open the `pom.xml` file from **IntelliJ IDEA**, make sure to open this as a project.
 
 ## Credits
