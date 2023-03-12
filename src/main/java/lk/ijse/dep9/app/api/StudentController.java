@@ -17,8 +17,15 @@ public class StudentController {
         return studentDTO;
     }
 
+    @ResponseStatus(HttpStatus.OK)
     @GetMapping(value = "/{nic}", produces = "application/json")
     public StudentDTO getStudentDetails(@PathVariable String nic) {
         return null;
+    }
+
+    @ResponseStatus(HttpStatus.CREATED)
+    @PatchMapping(value = "/{nic}", consumes = "application/json", produces = "application/json")
+    public StudentDTO updateStudent(String nic, StudentDTO studentDTO) {
+        return studentDTO;
     }
 }
