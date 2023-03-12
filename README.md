@@ -5,8 +5,7 @@ knowledge of spring boot and software architectures.
 The fundamental **CRUD activities** of a student management system are present in this project.
 Web services are exposed as APIs under the **students** resource in this project.
 
-More information on the exposed web services with example test cases can be found in the 
-API documentation listed below.
+More information on the exposed web services with example test cases can be found in the below API documentatio.
 - [**Students API documentation**](https://documenter.getpostman.com/view/25306703/2s93JtQPYm)
 
 See the front end of the project from [here.](https://github.com/PubuduJ/student-management-system-front-end)
