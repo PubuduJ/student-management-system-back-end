@@ -17,19 +17,19 @@ API documentation listed below.
 #### Few snapshots of the documentation
 - An attempt to update a student that does not exist in the database.<br>
 
-[//]: # (<img src="assets/member-snapshot.png" alt="splash-screen" width="800px"/>)
+<img src="assets/update-error.png" alt="splash-screen" width="800px"/>
 
 - Send incorrect JSON in request payload.<br>
 
-[//]: # (<img src="assets/book-snapshot.png" alt="splash-screen" width="800px"/>)
+<img src="assets/invalid-json.png" alt="splash-screen" width="800px"/>
 
 - An attempt to register a student that already exist in the database.<br>
 
-[//]: # (<img src="assets/issue-note-snapshot.png" alt="splash-screen" width="800px"/>)
+<img src="assets/register-error.png" alt="splash-screen" width="800px"/>
 
-- Null return items found in request payload.<br>
+- An attempt to delete a student that does not exist in the database.<br>
 
-[//]: # (<img src="assets/return-note-snapshot.png" alt="splash-screen" width="800px"/>)
+<img src="assets/delete-error.png" alt="splash-screen" width="800px"/>
 
 
 #### ERD of the database
@@ -61,7 +61,7 @@ This project can be used by cloning the
 project to your local computer.
 
 Make sure to create a **student_app_db** database in the MySQL community server.
-If you neglect to create it, the project will automatically generate it when it is first executed.
+If neglect to create, the project will automatically generate it when it is firstly executed.
 
 #### Clone this repository
 1. Clone the project using `https://github.com/PubuduJ/student-management-system-back-end.git` terminal command.
