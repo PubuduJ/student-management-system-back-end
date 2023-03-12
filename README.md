@@ -66,6 +66,7 @@ If neglect to create, the project will automatically generate it when it is firs
 #### Clone this repository
 1. Clone the project using `https://github.com/PubuduJ/student-management-system-back-end.git` terminal command.
 2. Open the `pom.xml` file from **IntelliJ IDEA**, make sure to open this as a project.
+3. Change the `spring.datasource.password` in the `application.properties` to your local machine MySQL server password.
 
 ## Credits
 This project was carried out under the guidance of the [IJSE](https://www.ijse.lk/) Direct Entry Program 9.
