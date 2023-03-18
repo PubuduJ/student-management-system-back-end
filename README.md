@@ -72,7 +72,7 @@ If neglect to create, the project will automatically generate it when it is firs
 This project was carried out under the guidance of the [IJSE](https://www.ijse.lk/) Direct Entry Program 9.
 
 ## Version
-v1.0.0
+v1.0.1
 
 ## License
 Copyright &copy; 2023 [Pubudu Janith](https://www.linkedin.com/in/pubudujanith94/). All Rights Reserved.<br>
