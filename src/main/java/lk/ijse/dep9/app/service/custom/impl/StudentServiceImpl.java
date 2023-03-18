@@ -9,11 +9,11 @@ import lk.ijse.dep9.app.service.util.Transformer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.Optional;
 
-@Component
-@Transactional
+@Service
 public class StudentServiceImpl implements StudentService {
 
     private final StudentRepository studentRepository;
@@ -26,6 +26,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
+    @Transactional
     public void createNewStudent(StudentDTO studentDTO) {
         Optional<Student> student = studentRepository.findById(studentDTO.getNic());
         if (student.isEmpty()) studentRepository.save(transformer.toStudentEntity(studentDTO));
@@ -33,6 +34,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
+    @Transactional
     public StudentDTO getStudentInfo(String nic) {
         if (!studentRepository.existsById(nic)) throw new NotFoundException("Student doesn't exist");
         Optional<Student> student = studentRepository.findById(nic);
@@ -40,6 +42,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
+    @Transactional
     public void updateStudentDetails(StudentDTO studentDTO) {
         Optional<Student> student = studentRepository.findById(studentDTO.getNic());
         if (student.isPresent()) studentRepository.save(transformer.toStudentEntity(studentDTO));
@@ -47,6 +50,7 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
+    @Transactional
     public void deleteStudent(String nic) {
         if (!studentRepository.existsById(nic)) throw new NotFoundException("Student doesn't exist");
         studentRepository.deleteById(nic);
