@@ -6,7 +6,7 @@
 
     <groupId>lk.ijse.dep9</groupId>
     <artifactId>student-app-back-end</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <name>student-app-back-end</name>
     <packaging>jar</packaging>
 
