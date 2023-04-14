@@ -17,24 +17,24 @@ See the front end of the project from [here.](https://github.com/PubuduJ/student
 #### Few snapshots of the documentation
 - An attempt to update a student that does not exist in the database.<br>
 
-<img src="assets/update-error.png" alt="splash-screen" width="800px"/>
+<img src="assets/update-error.png" alt="update-error" width="800px"/>
 
 - Send incorrect JSON in request payload.<br>
 
-<img src="assets/invalid-json.png" alt="splash-screen" width="800px"/>
+<img src="assets/invalid-json.png" alt="invalid-json" width="800px"/>
 
 - An attempt to register a student that already exist in the database.<br>
 
-<img src="assets/register-error.png" alt="splash-screen" width="800px"/>
+<img src="assets/register-error.png" alt="register-error" width="800px"/>
 
 - An attempt to delete a student that does not exist in the database.<br>
 
-<img src="assets/delete-error.png" alt="splash-screen" width="800px"/>
+<img src="assets/delete-error.png" alt="delete-error" width="800px"/>
 
 
 #### ERD of the database
 
-<img src="assets/SMS-ERD.png" alt="text-editor" width="400px"/>
+<img src="assets/SMS-ERD.png" alt="erd" width="400px"/>
 
 ## Used Technologies
 
